@@ -96,6 +96,7 @@ resource "azapi_resource" "aro_cluster" {
         fipsValidatedModules = var.fips_validated_modules
         resourceGroupId      = local.resource_group_id
         pullSecret           = var.pull_secret
+        version              = "4.9"
       }
       networkProfile = {
         podCidr              = var.pod_cidr

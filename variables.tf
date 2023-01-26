@@ -5,7 +5,7 @@ variable "resource_prefix" {
 
 variable "location" {
   description = "Specifies the location of Azure resource."
-  default     = "eastus"
+  default     = "eastus2"
   type        = string
 }
 
